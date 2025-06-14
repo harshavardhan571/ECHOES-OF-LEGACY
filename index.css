@@ -1,4 +1,3 @@
-/* Base body styling with background image and dark overlay */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     position: relative;
 }
 
-/* Optional dark overlay for better text contrast */
 body::before {
     content: "";
     position: fixed;
@@ -21,7 +19,6 @@ body::before {
     z-index: -1;
 }
 
-/* Header styling */
 header {
     background-color: rgba(0, 100, 0, 0.85);
     color: #fff;
@@ -34,14 +31,12 @@ h1 {
     margin: 0;
 }
 
-/* General content container */
 .content {
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-/* Section cards */
 .biography,
 .IPL-Career,
 .achievements {
@@ -79,7 +74,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Image grid layout */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
